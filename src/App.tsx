@@ -5,7 +5,15 @@ const App = () => {
   return (
     <>
       <Header />
-      <div className="container">
+      <div
+        className="container"
+        style={{
+          alignItems: 'center',
+          justifyContent: 'space-evenly',
+          display: 'flex',
+          flexDirection: 'column',
+        }}
+      >
         <div className="content">
           React with custom webpack setup Container - {process.env.NODE_ENV}{' '}
           {process.env.name}
