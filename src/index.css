@@ -11,10 +11,12 @@ body {
 }
 
 .container {
-  max-width: 500px;
+  min-width: 500px;
+  max-width: 90vw;
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
+  max-height: calc(100vh - 140px);
   border: 1px solid steelblue;
   padding: 30px;
   border-radius: 5px;

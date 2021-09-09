@@ -4,6 +4,9 @@
   "authors": "Nikhil Goud",
   "version": "1.0.0",
   "main": "src/index.html",
+  "repository": {
+    "url": "https://github.com/nikhilgoud/react-ts-webpack-eslint-jest"
+  },
   "scripts": {
     "start": "webpack serve --config webpack/webpack.config.js --env env=dev",
     "build": "webpack --config webpack/webpack.config.js --env env=prod",
